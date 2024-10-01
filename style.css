@@ -1003,7 +1003,7 @@ i{
 
     .headings{
         padding: 30px;
-        margin-left: -20px;
+        margin-left: -30px;
     }
     .headings p{
         color: rgb(255, 7, 123);
@@ -1026,11 +1026,19 @@ i{
     }
     .box-container{
         display: block;
-        padding-left: 70px;
+        padding-left: 50px;
         
     }
     .box{
         margin-bottom: 50px;
+    }
+    .box-img{
+        background-size: 90px;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 150px;
+        margin: auto;   
     }
     .box-heading h2{
         font-size: 18px;
@@ -1194,6 +1202,7 @@ i{
         height: 350px;
         width: 350px;
         border-radius: 180px; 
+        margin-left: 10px;
     }
     #saloon-m3{
         margin-left: 20px;
@@ -1225,6 +1234,10 @@ i{
         border-radius: 20px;
         
     }
+    #saloon-m4 h4{
+        margin-left: 7px;
+        
+    }
 
     .container-4{
         padding: 10px;
@@ -1252,6 +1265,17 @@ i{
     
     .scuts-images{
         display: block;
+    }
+    .scuts-img1{
+        background-image: url('Mask\ group-2.png');
+        background-position: center;
+        background-size:300px ;
+        background-repeat: no-repeat;
+        height: 350px;
+        width: 300px;
+        border-radius: 10px;
+        margin-top: 90px;
+        margin-left: -30px;
     }
     .scuts-img3{
         background-image: url('saloon3.jpg');
@@ -1287,7 +1311,7 @@ i{
     .features{
         margin-top: -100px;
         width: 100%;
-        margin-left: 20px;
+        margin-left: 5px;
     }
     .features-content{
         font-weight: bolder;
