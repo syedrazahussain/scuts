@@ -304,6 +304,7 @@ ul {
 }
 .companies-img{
     display: flex;
+    
     flex-wrap: wrap;
     width: 60%;
     justify-content: center;
@@ -1120,12 +1121,16 @@ i{
 
 
     .companies-img{
-        display: flex;
-        flex-wrap: wrap;
+        
         width: 100%;
         justify-content: center;
         margin-left: -1px;
         margin-top: 20px;
+
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+        gap: 10px;
         
     }
     .comp{
