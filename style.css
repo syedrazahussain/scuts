@@ -1033,11 +1033,11 @@ i{
         margin-bottom: 50px;
     }
     .box-img{
-        background-size: 90px;
+        background-size: 70px;
         background-position: center;
         background-repeat: no-repeat;
-        height: 250px;
-        width: 150px;
+        height: 500px;
+        width: 200px;
         margin: auto;   
     }
     .box-heading h2{
@@ -1232,6 +1232,7 @@ i{
         height: 350px;
         width: 350px;
         border-radius: 20px;
+        margin-left: 2px;
         
     }
     #saloon-m4 h4{
@@ -1312,6 +1313,7 @@ i{
     .features{
         margin-top: -100px;
         width: 100%;
+        margin-left: -10px;
         
     }
     .features-content{
@@ -1582,7 +1584,7 @@ i{
         height: auto;
         color: white;
         padding: 50px;
-        margin-left: 10px;
+        
         
         display: block;
         margin-bottom: 1px;
@@ -1651,10 +1653,11 @@ i{
     .third-div-container{
         height: auto;
         border: 2px solid gray;
-        width: 100%;
+        width: 110%;
         border-radius: 10px;
-        margin-left: -30PX;
-        margin-bottom: 100PX;   
+        margin-left: -40PX;
+        margin-bottom: 100PX; 
+        padding-right: 30px;  
     }
     .contact h1{
         margin-bottom: 20px;
@@ -1696,7 +1699,7 @@ i{
         color: rgb(172, 169, 169);
         margin-top: 1px;
         position:relative;
-        margin-left: 10px;
+        
         
       
     }
