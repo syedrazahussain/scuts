@@ -368,7 +368,12 @@ ul {
     padding: 10px;
     padding-bottom: 30px;
     margin-top: 70px;
+    transition: transform 0.3s ease-in-out, z-index 0.3s; 
     
+}
+.saloon1:hover{
+    transform:scale(1.2);
+    z-index: 2;
 }
 .saloon-img1{
     background-image: url('Mask\ group-2.png');
@@ -378,7 +383,12 @@ ul {
     height: 350px;
     width: 300px;
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out, z-index 0.3s; 
     
+}
+.saloon-img1:hover{
+    transform:scale(1.2);
+    z-index: 2;
 }
 .saloon2 {
     height: 350px;
@@ -387,7 +397,9 @@ ul {
     padding: 10px;
     padding-bottom: 30px; 
     
+    
 }
+
 .saloon-img2{
     background-image: url('saloon3.jpg');
     background-size: 300px;
@@ -396,9 +408,14 @@ ul {
     height: 350px;
     width: 300px;
     border-radius: 100px;
+    transition: transform 0.3s ease-in-out, z-index 0.3s; 
     
     
     
+}
+.saloon-img2:hover{
+    transform:scale(1.2);
+    z-index: 2;
 }
 .saloon-subtitle1{
     padding: 10px;
@@ -425,6 +442,7 @@ ul {
     position: relative;
     bottom: 70px; 
     
+    
 }
 
 .saloon-img3{
@@ -435,6 +453,12 @@ ul {
     height: 350px;
     width: 350px;
     border-radius: 180px; 
+    transition: transform 0.3s ease-in-out, z-index 0.3s; 
+}
+
+.saloon-img3:hover{
+    transform:scale(1.2);
+    z-index: 2;
 }
 
 .saloon4 {
@@ -456,8 +480,14 @@ ul {
     height: 350px;
     width: 350px;
     border-radius: 20px;
+    transition: transform 0.3s ease-in-out, z-index 0.3s; 
     
 }
+.saloon-img4:hover{
+    transform:scale(1.2);
+    z-index: 2;
+}
+
 .read-blog {
     display: flex;
     justify-content: center;
@@ -501,7 +531,10 @@ ul {
     width: 300px;
     border-radius: 10px;
     margin-top: 90px;
+    
 }
+
+
 
 .scuts-img2{
     background-image: url('haircuttiing.png.jpg');
@@ -513,7 +546,9 @@ ul {
     border-radius: 50px;
     margin-top: 30px;
     
+    
 }
+
 .scuts-img3{
     background-image: url('saloon3.jpg');
     background-position: center;
