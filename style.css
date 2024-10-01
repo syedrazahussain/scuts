@@ -779,7 +779,7 @@ font-weight: bold;
 }
 
 .container-7{
-    padding: 10px;
+    padding: 5px;
 }
 .footer-container{
     background-color: rgb(36, 35, 35);
@@ -1036,7 +1036,7 @@ i{
         background-size: 90px;
         background-position: center;
         background-repeat: no-repeat;
-        height: 200px;
+        height: 250px;
         width: 150px;
         margin: auto;   
     }
@@ -1312,7 +1312,7 @@ i{
     .features{
         margin-top: -100px;
         width: 100%;
-        margin-left: 5px;
+        
     }
     .features-content{
         font-weight: bolder;
@@ -1406,7 +1406,7 @@ i{
         border-radius: 10px;
         background-color: white;
         height: auto; /* Allow height to adjust based on content */
-        width: 230px;
+        width: 240px;
         
         margin-top: 60px;
         margin-left: -14px;
@@ -1439,7 +1439,7 @@ i{
         width: 70%;
         
         margin-top: 30px;
-        margin-left: -60px;
+        margin-left: -50px;
         border-radius: 10px;
         padding: 10px 10px; /* Adjust padding for better spacing */
         /* overflow: hidden; Prevent overflow */
@@ -1571,7 +1571,10 @@ i{
         width: 400px;
         margin-left: -80px;
     }
-
+    .container-7{
+        padding: 5px;
+        padding-left: -0px;
+    }
   
 
     .footer-container{
