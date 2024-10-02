@@ -1741,6 +1741,7 @@ i{
         margin-left: -10px;
         width: 100%;
         margin-bottom: 100px;
+        font-size: 10px;
     }
     .reach-heading{
         padding: 10px;
@@ -1858,6 +1859,10 @@ i{
         margin: 10px;
     }
 
+
+
+    /* ---------------------for oppo,realme,infinix-------------------------- */
+
     @media screen and (max-width:370px) {
         .scuts-para{
             
@@ -1898,7 +1903,7 @@ i{
             width: 170px;
             
             margin-top: 60px;
-            margin-left: -14px;
+            margin-left: -7px;
             box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
             overflow: hidden; /* Prevent overflow */
             padding: 60px; /* Add some padding */
@@ -1908,7 +1913,7 @@ i{
             width: 70%;
             
             margin-top: 15px;
-            margin-left: -50px;
+            margin-left: -40px;
             border-radius: 10px;
             padding: 10px 10px; /* Adjust padding for better spacing */
             /* overflow: hidden; Prevent overflow */
@@ -1921,6 +1926,8 @@ i{
     }
 
 
+
+    /* --------------Ex for redmi brands----------------------- */
     @media screen and (max-width:450px) {
 
         .scuts-para{
