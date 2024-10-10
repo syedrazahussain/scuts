@@ -8,6 +8,7 @@ html {
 }
 body {
     overflow-x: hidden;
+    overflow: hidden;
 }
 ul {
     list-style-type: none;
@@ -653,123 +654,139 @@ ul {
 .ready-para p{
     margin-bottom: 5px;
     color: rgb(92, 92, 92);
-    margin-left: -520px;
+    
     
 }
-.container-5{
-    padding:50px;
-
-}
-.voilet-div{
-    background-color: rgb(139, 95, 180);
-    height: 450px;
-    padding: 100px;
+.container-5 {
+    padding: 50px;
     margin: auto;
-    border-radius: 10px;
-    
+    background-color: #fff; /* Background color for the container */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Prevent content from overflowing */
 }
-.happy{
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    letter-spacing: 1px;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-.happy-msg{
-    margin-bottom: 10px;
-    white-space: normal;
-}
-.happy-msg p{
-        color: white;
-        display: flex;
-        justify-content: center;
-        font-size: 10px;
-        padding: 1px;
-        letter-spacing: 1px;
-}
-
-.white-div{
-    border-radius: 10px;
-    background-color: white;
+.feedback-img img{
+    border-radius: 50%;
     height: 50px;
-    width: 70%;
-    padding: 100px;
-    margin-top: 70px;
-    margin-left: 50px;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
-    
-    
 }
-.div-content h1{
-    font-size: 47px;
-    font-weight: bolder;
-    margin-left: 20px;
-    
-}
-.div-content p{
-    color:gray;
-    font-size: 13px;
-}
-.div-content h1, p {
+.happy
+{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    letter-spacing: 1px;
-    margin-bottom: 10px; 
+    margin-top: 100px;
+}
+.happy-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+.happy h2{
+        color: white;
+        margin-bottom: 30px;
+}
+.happy-msg p{
+    color: rgb(226, 220, 220);
+   text-align: center;
+
 }
 
-.white-div2{
-    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
-    background-color: white;
-    height: 250px;
-    width: 50%;
-    position:relative;
-    bottom:58%;
-    left:24%;
-    border-radius: 10px;
-    padding-top: 30px;
-    padding-left: 40px;
-     
-    
-}
-.dot{
-    font-size: 70px;
-    color: white;
-    margin-top: 50px;
-    margin-left: 150px;
-}
-.user-img{
+.swiper-container {
+    width: 100%; /* Full width of the container */
+    height: 900px; /* Match your desired height */
+    position: relative;
+    overflow: hidden; /* Prevent overflow */
+    background-color: rgb(139, 95, 180);
+    margin: auto;
    
-    background-image: url('user-img.png.jpg');
-    background-position: center;
-    background-size: 70px;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    height: 70px;
-    width: 70px;
-    margin-left: 220px;
-    margin-bottom: 10px;
+}
 
+.swiper-wrapper {
+    display: flex; /* Use flex to arrange slides */
 }
-.username{
-    display: flex;
+
+.swiper-slide {
+    width: 100%; /* Ensure each slide takes the full width */
+    height: 100%; /* Full height of the swiper container */
+    transition: opacity 0.5s ease;
+    display: flex; /* Use flex to center content */
     justify-content: center;
-    margin-bottom: 10px;
+    align-items: center;
+    position: relative;
+    opacity: 0.5; /* Slightly transparent */
 }
-.frontend h5{
+
+.white-div {
+    border-radius: 10px;
+    background-color: white;
+    height: 300px; /* Set height relative to swiper slide */
+    width: 70%; /* Match your design */
+    padding: 20px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    
 }
-.frontend-para p{
+
+.white-div h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.white-div h4{
+    color: rgba(0, 0, 0, 0.849);
+    font-weight:600;
+    margin-top: 5px;
+}
+
+.white-div p {
+    color: gray;
+    font-size: 14px;
     text-align: center;
-    font-size: 10px;   
-
+    margin-top: 20px;
 }
+
+.swiper-button-next{
+    margin-right: 100px;
+    color: white !important;
+}
+.swiper-button-prev{
+    margin-left: 100px;
+    color: white !important;
+}
+
+/* Active slide style */
+.swiper-slide-active {
+    opacity: 1; /* Fully opaque */
+    
+    
+    
+}
+/* Increased specificity for the pagination styles */
+.swiper-container .swiper-pagination {
+    margin-bottom: 150px;
+}
+
+.swiper-container .swiper-pagination-bullet {
+    background: white !important; /* Force white color */
+    opacity: 0.7; /* Slightly transparent */
+    width: 10px; /* Adjust width */
+    height: 10px; /* Adjust height */
+    border-radius: 50%; /* Circular shape */
+    margin: 0 5px; /* Space between dots */
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+    background: blue !important; /* Ensure active bullet is white */
+    opacity: 1; /* Fully opaque for active bullet */
+}
+
+
 
 .container-6{
     padding:50px;
@@ -785,7 +802,10 @@ ul {
 .scuts-heading2{
     color:red;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
     margin-left: 200px;
+    margin-bottom: 10px;
 
 }
 .about-heading{
@@ -977,6 +997,7 @@ i{
     }
     body {
         overflow-x: hidden;
+        overflow: hidden;
         
     }
     .container{
@@ -1490,41 +1511,30 @@ i{
         
     
     }
-    .voilet-div{
-        background-color: rgb(139, 95, 180);
-        height: 550px;
-        padding: 20px;
-        width: 320px; 
-        border-radius: 10px;
-        margin-bottom: 100px;
-        
-        
-        
-        
-    }
-    .happy{
-        color: white;
+    .happy
+    {
+        width: 100%;
         display: flex;
         justify-content: center;
-        padding: 10px;
-        letter-spacing: 1px;
-        font-size: 18px;
-        margin-bottom: 10px;
+        align-items: center;
+        margin-top: 100px;
     }
-    .happy-msg{
-        margin-bottom: 10px;
-        text-align: center;
+    .happy-msg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
     }
-    .happy-msg p{
+    .happy h2{
             color: white;
-            display: flex;
-            justify-content:flex-start;
-            font-size: 10px;
-            padding: 1px;
-            letter-spacing: 1px;
-            width: 100%;
-            
+            margin-bottom: 30px;
+            font-size: 20px;
+    }
+    .happy-msg p{
+        color: rgb(226, 220, 220);
+       text-align: center;
+       font-size: 10px;
+    
     }
     
     .white-div {
@@ -1539,72 +1549,22 @@ i{
         overflow: hidden; /* Prevent overflow */
         padding: 60px; /* Add some padding */
     }
-    
-    .div-content {
-        width: 100%;
-    }
-    
-    .div-content h1 {
-        font-size: 18px;
-        font-weight: bolder;
-        text-align: center; /* Center text */
-        margin: 0; /* Remove default margin */
-    }
-    
-    .div-content p {
-        color: rgb(145, 136, 136);
-        font-size: 12px;
-        text-align: center; /* Center text */
-        margin: 5px 0; /* Add some margin */
-        width: 100%; /* Make width 100% */
-    }
-    
-    .white-div2 {
-        height: 300px; /* Allow height to adjust based on content */
-        width: 70%;
-        
-        margin-top: 30px;
-        margin-left: -50px;
-        border-radius: 10px;
-        padding: 10px 10px; /* Adjust padding for better spacing */
-        /* overflow: hidden; Prevent overflow */
-        background-color: white; /* Add background color */
-        
+    .swiper-button-next{
+        margin-left: 0px !important;
+        margin-right:0px !important;
+        margin-top: 0px !important;
+        color: rgb(228, 226, 226) !important;
         
     }
-    
-    .dot {
-        font-size: 70px;
-        color: white;
-        margin-left: -10px;
-        margin-top: -20px;
-        position:relative;
-        top : 5%;
-        left: 20%;
-        
-        
+    .swiper-button-prev{
+        margin-left: 0px;
+        margin-top: 80px !important;
+        color: rgb(228, 226, 226) !important;
     }
     
-    .user-img {
-        background-image: url('user-img.png.jpg');
-        background-position: center;
-        background-size: cover; /* Cover to fill the area */
-        border-radius: 50%;
-        height: 70px;
-        width: 70px;
-        margin: 0 auto 10px; /* Center and add margin */
-    }
+   
     
-    .username, .frontend h5, .frontend-para p {
-        text-align: center; /* Center text */
-        margin: 15px 0; /* Add some margin */
-        
-    }
     
-    .frontend-para p {
-        font-size: 11px; 
-    }
-
     .ready-container1{
         padding-left: 0px;
         padding: 10px 10px;
@@ -1864,6 +1824,12 @@ i{
     /* ---------------------for oppo,realme,infinix-------------------------- */
 
     @media screen and (max-width:370px) {
+
+        body {
+            overflow-x: hidden;
+            overflow: hidden;
+            
+        }
         .scuts-para{
             
             margin-top: -30px;
@@ -1882,44 +1848,75 @@ i{
             margin-bottom: 100px;
             
         }
-        .voilet-div{
-            background-color: rgb(139, 95, 180);
-            height: 550px;
-            padding: 20px;
-            width: 280px; 
-            border-radius: 10px;
-            margin-bottom: 100px;
-            margin-right: 0px;
-            
-            
-            
-            
-        }
+        
 
         .white-div {
             border-radius: 10px;
             background-color: white;
             height: auto; /* Allow height to adjust based on content */
-            width: 170px;
+            width: 220px;
             
             margin-top: 60px;
-            margin-left: -7px;
+            margin-left: 40px;
+            margin-right: 0px;
             box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
             overflow: hidden; /* Prevent overflow */
-            padding: 60px; /* Add some padding */
+            padding: 10px; /* Add some padding */
         }
-        .white-div2 {
-            height: 300px; /* Allow height to adjust based on content */
-            width: 70%;
+        
+
+        .swiper-container .swiper-pagination {
+            margin-bottom: 30px;
+        }
+        
+        .swiper-container .swiper-pagination-bullet {
+            background: white !important; /* Force white color */
+            opacity: 0.7; /* Slightly transparent */
+            width: 10px; /* Adjust width */
+            height: 10px; /* Adjust height */
+            border-radius: 50%; /* Circular shape */
+            margin: 0 5px; /* Space between dots */
+        }
+        
+        .swiper-container .swiper-pagination-bullet-active {
+            background: blue !important; /* Ensure active bullet is white */
+            opacity: 1; /* Fully opaque for active bullet */
+        }
+
+        .white-div h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+        .white-div h4{
+            color: rgba(0, 0, 0, 0.849);
+            font-weight:600;
+            margin-top: 5px;
+            font-size: 10px;
+        }
+        
+        .white-div p {
+            color: gray;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .swiper-button-next{
+            margin-left:0px !important;
+            margin-right:-0px !important;
+            margin-top: 0px !important;
+            color: rgb(228, 226, 226) !important;
+            position: absolute !important;
+            left: 90% !important;
             
-            margin-top: 15px;
-            margin-left: -40px;
-            border-radius: 10px;
-            padding: 10px 10px; /* Adjust padding for better spacing */
-            /* overflow: hidden; Prevent overflow */
-            background-color: white; /* Add background color */
             
             
+        }
+        .swiper-button-prev{
+            margin-left: 0px;
+            margin-top: 80px !important;
+            color: rgb(228, 226, 226) !important;
         }
         
         
@@ -1929,7 +1926,11 @@ i{
 
     /* --------------Ex for redmi brands----------------------- */
     @media screen and (max-width:450px) {
-
+        body {
+            overflow-x: hidden;
+            overflow: hidden;
+            
+        }
         .scuts-para{
             
              margin-top: -30px;
@@ -1949,13 +1950,71 @@ i{
              
          }
 
-         .voilet-div{
+         .white-div {
+            border-radius: 10px;
+            background-color: white;
+            height: auto; /* Allow height to adjust based on content */
+            width: 220px;
             
-            margin-left: 0px;
+            margin-top: 60px;
+            margin-left: 40px;
+            margin-right: 0px;
+            box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+            overflow: hidden; /* Prevent overflow */
+            padding: 10px; /* Add some padding */
+        }
+        
+
+        .swiper-container .swiper-pagination {
+            margin-bottom: 30px;
+        }
+        
+        .swiper-container .swiper-pagination-bullet {
+            background: white !important; /* Force white color */
+            opacity: 0.7; /* Slightly transparent */
+            width: 10px; /* Adjust width */
+            height: 10px; /* Adjust height */
+            border-radius: 50%; /* Circular shape */
+            margin: 0 5px; /* Space between dots */
+        }
+        
+        .swiper-container .swiper-pagination-bullet-active {
+            background: blue !important; /* Ensure active bullet is white */
+            opacity: 1; /* Fully opaque for active bullet */
+        }
+
+        .white-div h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+        .white-div h4{
+            color: rgba(0, 0, 0, 0.849);
+            font-weight:600;
+            margin-top: 5px;
+            font-size: 10px;
+        }
+        
+        .white-div p {
+            color: gray;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .swiper-button-next{
+            margin-left: 0px !important;
+            margin-right:50px !important;
             
-            
+            color: rgb(228, 226, 226) !important;
             
         }
+        .swiper-button-prev{
+            margin-left: 0px;
+            margin-top: 0px !important;
+            color: rgb(228, 226, 226) !important;
+        }
+        
         
     }
     
