@@ -1830,12 +1830,10 @@ i{
 
     @media screen and (max-width:370px) {
 
-        body {
-            overflow-x: hidden;
-            overflow: hidden;
-            
-        }
+      
         .container{
+            overflow-x: hidden;
+            
             width:fit-content;
         }
         .scuts-para{
@@ -1925,6 +1923,9 @@ i{
             margin-left: 0px;
             margin-top: 80px !important;
             color: rgb(228, 226, 226) !important;
+        }
+        .container-4,.container-3{
+            overflow: hidden;
         }
         
         
@@ -2036,6 +2037,10 @@ i{
             margin-top: 0px !important;
             color: rgb(228, 226, 226) !important;
         }
+        .container-4,.container-3,.container-2,.container-1{
+            overflow: hidden;
+        }
+        
         
         
     }
