@@ -1,8 +1,10 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
     
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -18,7 +20,7 @@ ul {
     background-color: antiquewhite;
     padding-bottom: 100px;
     width: 100%;
-    
+    overflow-x: hidden;
     
   
 }
@@ -992,7 +994,7 @@ i{
   
     html {
         scroll-behavior: smooth;
-        overflow-x: hidden;
+        overflow-x: none;
         
     }
     body {
@@ -1004,6 +1006,8 @@ i{
         background-color: antiquewhite;
         padding-bottom: 10px;
         width:fit-content;
+        overflow-x: hidden;
+        
         
       
     }
@@ -1509,6 +1513,7 @@ i{
         
         
         
+        
     
     }
     .happy
@@ -1830,6 +1835,9 @@ i{
             overflow: hidden;
             
         }
+        .container{
+            width:fit-content;
+        }
         .scuts-para{
             
             margin-top: -30px;
@@ -1931,6 +1939,11 @@ i{
             overflow: hidden;
             
         }
+        
+        .container{
+            overflow-x: hidden;
+            width: 100%;
+        }
         .scuts-para{
             
              margin-top: -30px;
@@ -1962,6 +1975,15 @@ i{
             box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
             overflow: hidden; /* Prevent overflow */
             padding: 10px; /* Add some padding */
+        }
+        .swiper-container {
+            width: 100%; /* Full width of the container */
+            height: 900px; /* Match your desired height */
+            position: relative;
+            overflow: hidden; /* Prevent overflow */
+            background-color: rgb(139, 95, 180);
+            margin: auto;
+           
         }
         
 
