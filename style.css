@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  
     
 }
 
@@ -314,6 +314,9 @@ ul {
     font-size: 13px;
     padding: 10px;
     font-weight:bold;
+}
+.container-3{
+    overflow: hidden;
 }
 .companies-img{
     display: flex;
@@ -1836,6 +1839,23 @@ i{
             
             width:fit-content;
         }
+       
+        .container-2{
+            display: block;
+        }
+        .container-3{
+            display: block;
+        }
+        .container-4{
+            display: block;
+        }
+        .container-5{
+            display: block;
+        }
+        .container-6{
+            display: block;
+            overflow: hidden;
+        }
         .scuts-para{
             
             margin-top: -30px;
@@ -1854,6 +1874,9 @@ i{
             margin-bottom: 100px;
             
         }
+        .container-3{
+            overflow: hidden;
+        }
         
 
         .white-div {
@@ -1863,7 +1886,7 @@ i{
             width: 220px;
             
             margin-top: 60px;
-            margin-left: 40px;
+            margin-left: 40px !important;
             margin-right: 0px;
             box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
             overflow: hidden; /* Prevent overflow */
@@ -1971,7 +1994,7 @@ i{
             width: 220px;
             
             margin-top: 60px;
-            margin-left: 40px;
+            margin-left: 60px;
             margin-right: 0px;
             box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
             overflow: hidden; /* Prevent overflow */
@@ -2027,7 +2050,7 @@ i{
 
         .swiper-button-next{
             margin-left: 0px !important;
-            margin-right:50px !important;
+            margin-right:10px !important;
             
             color: rgb(228, 226, 226) !important;
             
