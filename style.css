@@ -1829,246 +1829,261 @@ i{
 
 
 
-    /* ---------------------for oppo,realme,infinix-------------------------- */
+    
+    
+    
+    
 
-    @media screen and (max-width:370px) {
+}
+/* ---------------------for oppo,realme,infinix-------------------------- */
+
+@media screen and (max-width:370px) {
 
       
-        .container{
-            overflow-x: hidden;
-            
-            width:fit-content;
-        }
+    .container{
+        overflow-x: hidden;
+        
+        width:fit-content;
+    }
+   
+    .container-2{
+        display: block;
+    }
+    .container-3{
+        display: block;
+    }
+    .container-4{
+        display: block;
+    }
+    .container-5{
+        display: block;
+    }
+    .container-6{
+        display: block;
+        overflow: hidden;
+    }
+    .scuts-para{
+        
+        margin-top: -30px;
+        white-space: normal;
+        
+        
+    }
+
+    .scuts-para p {
+        display: block ;
+        position: static;
+        color: rgb(92, 92, 92);
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 100px;
+        
+    }
+    .container-3{
+        overflow: hidden;
+    }
+    
+
+    .white-div {
+        border-radius: 10px;
+        background-color: white;
+        height: auto; /* Allow height to adjust based on content */
+        width: 220px;
+        
+        margin-top: 60px;
+        margin-left: 40px !important;
+        margin-right: 0px;
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+        overflow: hidden; /* Prevent overflow */
+        padding: 10px; /* Add some padding */
+    }
+    
+
+    .swiper-container .swiper-pagination {
+        margin-bottom: 30px;
+    }
+    
+    .swiper-container .swiper-pagination-bullet {
+        background: white !important; /* Force white color */
+        opacity: 0.7; /* Slightly transparent */
+        width: 10px; /* Adjust width */
+        height: 10px; /* Adjust height */
+        border-radius: 50%; /* Circular shape */
+        margin: 0 5px; /* Space between dots */
+    }
+    
+    .swiper-container .swiper-pagination-bullet-active {
+        background: blue !important; /* Ensure active bullet is white */
+        opacity: 1; /* Fully opaque for active bullet */
+    }
+
+    .white-div h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .white-div h4{
+        color: rgba(0, 0, 0, 0.849);
+        font-weight:600;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    
+    .white-div p {
+        color: gray;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .swiper-button-next{
+        margin-left:0px !important;
+        margin-right:-0px !important;
+        margin-top: 0px !important;
+        color: rgb(228, 226, 226) !important;
+        position: absolute !important;
+        left: 90% !important;
+        
+        
+        
+    }
+    .swiper-button-prev{
+        margin-left: 0px;
+        margin-top: 80px !important;
+        color: rgb(228, 226, 226) !important;
+    }
+    .container-4,.container-3{
+        overflow: hidden;
+    }
+    
+    
+}
+
+
+
+/* --------------Ex for redmi brands----------------------- */
+@media screen and (max-width:450px) {
+    body {
+        overflow-x: hidden;
+        overflow: hidden;
+        
+    }
+    
+    .container{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    .scuts-para{
+        
+         margin-top: -30px;
+         white-space: normal;
+         
+         
+     }
+ 
+     .scuts-para p {
+         display: block ;
+         position: static;
+         color: rgb(92, 92, 92);
+         font-size: 10px;
+         padding: 0;
+         margin: 0;
+         margin-bottom: 100px;
+         
+     }
+
+     .white-div {
+        border-radius: 10px;
+        background-color: white;
+        height: auto; /* Allow height to adjust based on content */
+        width: 220px;
+        
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 0px;
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+        overflow: hidden; /* Prevent overflow */
+        padding: 10px; /* Add some padding */
+    }
+    .swiper-container {
+        width: 100%; /* Full width of the container */
+        height: 900px; /* Match your desired height */
+        position: relative;
+        overflow: hidden; /* Prevent overflow */
+        background-color: rgb(139, 95, 180);
+        margin: auto;
        
-        .container-2{
-            display: block;
-        }
-        .container-3{
-            display: block;
-        }
-        .container-4{
-            display: block;
-        }
-        .container-5{
-            display: block;
-        }
-        .container-6{
-            display: block;
-            overflow: hidden;
-        }
-        .scuts-para{
-            
-            margin-top: -30px;
-            white-space: normal;
-            
-            
-        }
+    }
     
-        .scuts-para p {
-            display: block ;
-            position: static;
-            color: rgb(92, 92, 92);
-            font-size: 10px;
-            padding: 0;
-            margin: 0;
-            margin-bottom: 100px;
-            
-        }
-        .container-3{
-            overflow: hidden;
-        }
-        
 
-        .white-div {
-            border-radius: 10px;
-            background-color: white;
-            height: auto; /* Allow height to adjust based on content */
-            width: 220px;
-            
-            margin-top: 60px;
-            margin-left: 40px !important;
-            margin-right: 0px;
-            box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
-            overflow: hidden; /* Prevent overflow */
-            padding: 10px; /* Add some padding */
-        }
-        
+    .swiper-container .swiper-pagination {
+        margin-bottom: 30px;
+    }
+    
+    .swiper-container .swiper-pagination-bullet {
+        background: white !important; /* Force white color */
+        opacity: 0.7; /* Slightly transparent */
+        width: 10px; /* Adjust width */
+        height: 10px; /* Adjust height */
+        border-radius: 50%; /* Circular shape */
+        margin: 0 5px; /* Space between dots */
+    }
+    
+    .swiper-container .swiper-pagination-bullet-active {
+        background: blue !important; /* Ensure active bullet is white */
+        opacity: 1; /* Fully opaque for active bullet */
+    }
 
-        .swiper-container .swiper-pagination {
-            margin-bottom: 30px;
-        }
-        
-        .swiper-container .swiper-pagination-bullet {
-            background: white !important; /* Force white color */
-            opacity: 0.7; /* Slightly transparent */
-            width: 10px; /* Adjust width */
-            height: 10px; /* Adjust height */
-            border-radius: 50%; /* Circular shape */
-            margin: 0 5px; /* Space between dots */
-        }
-        
-        .swiper-container .swiper-pagination-bullet-active {
-            background: blue !important; /* Ensure active bullet is white */
-            opacity: 1; /* Fully opaque for active bullet */
-        }
+    .white-div h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .white-div h4{
+        color: rgba(0, 0, 0, 0.849);
+        font-weight:600;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    
+    .white-div p {
+        color: gray;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
 
-        .white-div h2 {
-            font-size: 20px;
-            margin-bottom: 10px;
-            margin-top: 20px;
-        }
-        .white-div h4{
-            color: rgba(0, 0, 0, 0.849);
-            font-weight:600;
-            margin-top: 5px;
-            font-size: 10px;
-        }
+    .swiper-button-next{
+        margin-left: 0px !important;
+        margin-right:10px !important;
         
-        .white-div p {
-            color: gray;
-            font-size: 14px;
-            text-align: center;
-            margin-top: 20px;
-        }
+        color: rgb(228, 226, 226) !important;
+        
+    }
+    .swiper-button-prev{
+        margin-left: 0px;
+        margin-top: 0px !important;
+        color: rgb(228, 226, 226) !important;
+    }
+    .container-4,.container-3,.container-2,.container-5,.container-6{
+        overflow: hidden;
+    }
 
-        .swiper-button-next{
-            margin-left:0px !important;
-            margin-right:-0px !important;
-            margin-top: 0px !important;
-            color: rgb(228, 226, 226) !important;
-            position: absolute !important;
-            left: 90% !important;
-            
-            
-            
-        }
-        .swiper-button-prev{
-            margin-left: 0px;
-            margin-top: 80px !important;
-            color: rgb(228, 226, 226) !important;
-        }
-        .container-4,.container-3{
-            overflow: hidden;
-        }
+    .sparrow-img{
+        background-image: url('sparrow-img.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 300px;
+        height: 300px;
+        width: 300px;
+        margin-left: 10px;
         
         
     }
 
-
-
-    /* --------------Ex for redmi brands----------------------- */
-    @media screen and (max-width:450px) {
-        body {
-            overflow-x: hidden;
-            overflow: hidden;
-            
-        }
-        
-        .container{
-            overflow-x: hidden;
-            width: 100%;
-        }
-        .scuts-para{
-            
-             margin-top: -30px;
-             white-space: normal;
-             
-             
-         }
-     
-         .scuts-para p {
-             display: block ;
-             position: static;
-             color: rgb(92, 92, 92);
-             font-size: 10px;
-             padding: 0;
-             margin: 0;
-             margin-bottom: 100px;
-             
-         }
-
-         .white-div {
-            border-radius: 10px;
-            background-color: white;
-            height: auto; /* Allow height to adjust based on content */
-            width: 220px;
-            
-            margin-top: 60px;
-            margin-left: 60px;
-            margin-right: 0px;
-            box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
-            overflow: hidden; /* Prevent overflow */
-            padding: 10px; /* Add some padding */
-        }
-        .swiper-container {
-            width: 100%; /* Full width of the container */
-            height: 900px; /* Match your desired height */
-            position: relative;
-            overflow: hidden; /* Prevent overflow */
-            background-color: rgb(139, 95, 180);
-            margin: auto;
-           
-        }
-        
-
-        .swiper-container .swiper-pagination {
-            margin-bottom: 30px;
-        }
-        
-        .swiper-container .swiper-pagination-bullet {
-            background: white !important; /* Force white color */
-            opacity: 0.7; /* Slightly transparent */
-            width: 10px; /* Adjust width */
-            height: 10px; /* Adjust height */
-            border-radius: 50%; /* Circular shape */
-            margin: 0 5px; /* Space between dots */
-        }
-        
-        .swiper-container .swiper-pagination-bullet-active {
-            background: blue !important; /* Ensure active bullet is white */
-            opacity: 1; /* Fully opaque for active bullet */
-        }
-
-        .white-div h2 {
-            font-size: 20px;
-            margin-bottom: 10px;
-            margin-top: 20px;
-        }
-        .white-div h4{
-            color: rgba(0, 0, 0, 0.849);
-            font-weight:600;
-            margin-top: 5px;
-            font-size: 10px;
-        }
-        
-        .white-div p {
-            color: gray;
-            font-size: 14px;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .swiper-button-next{
-            margin-left: 0px !important;
-            margin-right:10px !important;
-            
-            color: rgb(228, 226, 226) !important;
-            
-        }
-        .swiper-button-prev{
-            margin-left: 0px;
-            margin-top: 0px !important;
-            color: rgb(228, 226, 226) !important;
-        }
-        .container-4,.container-3,.container-2,.container-1{
-            overflow: hidden;
-        }
-        
-        
-        
-    }
     
     
     
-
 }
