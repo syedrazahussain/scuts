@@ -2063,7 +2063,7 @@ i{
         
     }
     .swiper-button-prev{
-        margin-left: 0px;
+        margin-left: 10px;
         margin-top: 0px !important;
         color: rgb(228, 226, 226) !important;
     }
