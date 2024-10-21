@@ -2084,6 +2084,15 @@ i {
 
 }
 
+@media screen and (max-width:730px) {
+
+    .app-store-img{
+        
+        margin-left: -50px;
+    }
+    
+}
+
 /* ---------------------for oppo,realme,infinix-------------------------- */
 
 @media screen and (max-width:370px) {
