@@ -2087,7 +2087,7 @@ i {
 /* ---------------------for oppo,realme,infinix-------------------------- */
 
 @media screen and (max-width:370px) {
-
+    
     .google-play-img img {
         scale: 0.5;
         border-radius: 10px;
@@ -2100,9 +2100,12 @@ i {
         border-radius: 10px;
         cursor: pointer;
         margin-left: 5px ;
-        margin-right: -30px !important;
+        margin-right: -40px !important;
 
 
+    }
+    .app-store-img{
+        margin-left: 10px;
     }
 
     .container {
@@ -2243,6 +2246,9 @@ i {
         overflow: hidden;
 
     }
+    .google-play-img {
+        margin-right: 40px;
+    }
 
     .google-play-img img {
         scale: 0.6;
@@ -2257,7 +2263,7 @@ i {
         border-radius: 10px;
         cursor: pointer;
         margin-left: -5px !important;
-        margin-right: -10px !important;
+        margin-right: -20px !important;
 
 
     }
