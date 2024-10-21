@@ -378,7 +378,7 @@
   z-index: 1;
   
   background-color: white;
-  padding: 70px 20px; /* Combined padding for clarity */
+  padding: 40px 20px; /* Combined padding for clarity */
   
   
 }
@@ -455,4 +455,21 @@
 
   
 
+}
+
+@media screen and (max-width:370px) {
+  .carousel-item {
+  
+    padding: 40px 20px; /* Combined padding for clarity */
+    
+    
+  }
+}
+@media screen and (max-width:470px) {
+  .carousel-item {
+  
+    padding: 40px 20px; /* Combined padding for clarity */
+    
+    
+  }
 }
