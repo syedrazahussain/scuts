@@ -1159,7 +1159,7 @@ i {
         right: 1px;
         left: -50px;
         background-image: url('hero-background.png.jpg');
-        background-size: 650px;
+        background-size: 610px;
         background-position: center;
         background-repeat: no-repeat;
 
@@ -1806,11 +1806,12 @@ i {
         color: rgb(182, 182, 182);
         width: 100%;
         line-height: 20px;
+        font-size: 12px;
 
     }
 
     .ready-heading2 h4 {
-        font-size: 12px;
+        font-size: 14px;
         
         width: 100%;
 
@@ -1992,7 +1993,7 @@ i {
     }
 
     .contact-para p {
-        font-size: 16px;
+        font-size: 14px;
 
     }
 
@@ -2117,6 +2118,7 @@ i {
 
         margin-top: -30px;
         white-space: normal;
+        margin-left: 20px !important;
 
 
     }
@@ -2131,6 +2133,72 @@ i {
         margin-bottom: 100px;
 
     }
+    .box-container {
+        margin-left: 10px !important;
+
+
+    }
+    #subt1 {
+        font-size: 11px;
+        margin-top: 20px;
+        margin-left: 10px;
+
+    }
+
+    #subt2 {
+        font-size: 11px;
+        margin-top: -10px;
+        margin-left: 15px;
+
+    }
+
+    #subt3 {
+        font-size: 11px;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+
+    #subt4 {
+        font-size: 11px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    #mg1 h4 {
+
+        font-size: 12px;
+        margin-left: -95px;
+        letter-spacing: -1px;
+        font-weight: 900;
+
+    }
+
+    #mg2 h4 {
+        font-size: 12px;
+
+        font-weight: 900;
+        letter-spacing: -1px;
+        margin-left: -25px;
+    }
+
+    #mg3 h4 {
+
+        font-size: 12px;
+        margin-left: -75px;
+        font-weight: 900;
+        letter-spacing: -1px;
+
+    }
+
+    #mg4 h4 {
+        font-size: 12px;
+        margin-left: -25px;
+        font-weight: 900;
+        letter-spacing: -1px;
+
+    }
+
+
 
     .container-3 {
         overflow: hidden;
@@ -2164,6 +2232,7 @@ i {
 
         margin-top: -30px;
         white-space: normal;
+        margin-left: 50px;
 
 
     }
@@ -2178,8 +2247,71 @@ i {
         margin-bottom: 100px;
 
     }
+    .box-container {
+        margin-left: 40px;
 
-    
+
+    }
+
+    #subt1 {
+        font-size: 11px;
+        margin-top: 20px;
+        margin-left: 10px;
+
+    }
+
+    #subt2 {
+        font-size: 11px;
+        margin-top: -10px;
+        margin-left: 15px;
+
+    }
+
+    #subt3 {
+        font-size: 11px;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+
+    #subt4 {
+        font-size: 11px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    #mg1 h4 {
+
+        font-size: 12px;
+        margin-left: -95px;
+        letter-spacing: -1px;
+        font-weight: 900;
+
+    }
+
+    #mg2 h4 {
+        font-size: 12px;
+
+        font-weight: 900;
+        letter-spacing: -1px;
+        margin-left: -25px;
+    }
+
+    #mg3 h4 {
+
+        font-size: 12px;
+        margin-left: -75px;
+        font-weight: 900;
+        letter-spacing: -1px;
+
+    }
+
+    #mg4 h4 {
+        font-size: 12px;
+        margin-left: -25px;
+        font-weight: 900;
+        letter-spacing: -1px;
+
+    }
 
     .container-4,
     .container-3,
@@ -2196,12 +2328,14 @@ i {
         background-size: 300px;
         height: 300px;
         width: 300px;
-        margin-left: 10px;
+        margin-left: 2px;
 
 
     }
 
-
-
-
 }
+
+@viewport {
+    min-width: 980px;
+}
+
