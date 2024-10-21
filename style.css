@@ -2246,6 +2246,7 @@ i {
         scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
+        margin-left: -10px !important;
 
     }
 
@@ -2253,7 +2254,7 @@ i {
         scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
-        margin-left: -10px;
+        margin-left: -5px !important;
 
 
     }
