@@ -2079,7 +2079,16 @@ i {
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:720px) {
+
+    .app-store-img{
+        margin-left: -50px;
+        
+    }
+
+}
+
+@media screen and (max-width:600px) {
 
     .app-store-img{
         margin-left: -50px;
