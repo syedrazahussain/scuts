@@ -1208,14 +1208,14 @@ i {
     }
 
     .google-play-img img {
-        scale: 0.6;
+        scale: 0.5;
         border-radius: 10px;
         cursor: pointer;
 
     }
 
     .app-store-img img {
-        scale: 0.6;
+        scale: 0.5;
         border-radius: 10px;
         cursor: pointer;
         margin-left: 20px;
@@ -2168,7 +2168,7 @@ i {
     #mg1 h4 {
 
         font-size: 12px;
-        margin-left: -125px!important;
+        margin-left: -130px!important;
         letter-spacing: -1px;
         font-weight: 900;
 
@@ -2179,13 +2179,13 @@ i {
 
         font-weight: 900;
         letter-spacing: -1px;
-        margin-left: -50px !important;
+        margin-left: -65px !important;
     }
 
     #mg3 h4 {
 
         font-size: 12px;
-        margin-left: -90px !important;
+        margin-left: -110px !important;
         font-weight: 900;
         letter-spacing: -1px;
 
@@ -2193,7 +2193,7 @@ i {
 
     #mg4 h4 {
         font-size: 12px;
-        margin-left: -50px !important;
+        margin-left: -70px !important;
         font-weight: 900;
         letter-spacing: -1px;
 
@@ -2286,7 +2286,7 @@ i {
     #mg1 h4 {
 
         font-size: 12px;
-        margin-left: -125px!important;
+        margin-left: -130px!important;
         letter-spacing: -1px;
         font-weight: 900;
 
@@ -2297,13 +2297,13 @@ i {
 
         font-weight: 900;
         letter-spacing: -1px;
-        margin-left: -50px !important;
+        margin-left: -65px !important;
     }
 
     #mg3 h4 {
 
         font-size: 12px;
-        margin-left: -90px !important;
+        margin-left: -110px !important;
         font-weight: 900;
         letter-spacing: -1px;
 
@@ -2311,7 +2311,7 @@ i {
 
     #mg4 h4 {
         font-size: 12px;
-        margin-left: -50px !important;
+        margin-left: -70px !important;
         font-weight: 900;
         letter-spacing: -1px;
 
