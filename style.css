@@ -1208,7 +1208,7 @@ i {
     }
 
     .google-play-img img {
-        scale: 0.5;
+        scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
         margin-left: -10px !important;
@@ -1216,7 +1216,7 @@ i {
     }
 
     .app-store-img img {
-        scale: 0.5;
+        scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
         
@@ -2089,14 +2089,14 @@ i {
 @media screen and (max-width:370px) {
     
     .google-play-img img {
-        scale: 0.5;
+        scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
 
     }
 
     .app-store-img img {
-        scale: 0.5;
+        scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
         margin-left: 5px ;
