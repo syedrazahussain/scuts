@@ -2087,6 +2087,21 @@ i {
 
 @media screen and (max-width:370px) {
 
+    .google-play-img img {
+        scale: 0.5;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .app-store-img img {
+        scale: 0.5;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 5px;
+
+
+    }
 
     .container {
         overflow-x: hidden;
@@ -2179,7 +2194,7 @@ i {
 
         font-weight: 900;
         letter-spacing: -1px;
-        margin-left: -65px !important;
+        margin-left: -70px !important;
     }
 
     #mg3 h4 {
@@ -2226,6 +2241,23 @@ i {
         overflow: hidden;
 
     }
+
+    .google-play-img img {
+        scale: 0.5;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .app-store-img img {
+        scale: 0.5;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 5px;
+
+
+    }
+
 
     .container {
         overflow-x: hidden;
@@ -2297,7 +2329,7 @@ i {
 
         font-weight: 900;
         letter-spacing: -1px;
-        margin-left: -65px !important;
+        margin-left: -70px !important;
     }
 
     #mg3 h4 {
