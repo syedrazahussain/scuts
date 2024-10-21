@@ -624,7 +624,7 @@ h3 {
     padding: 10px;
     padding-bottom: 30px;
     border-radius: 20px;
-    position: relative;
+    
     bottom: 130px;
     margin-top: -20px;
 
@@ -640,6 +640,7 @@ h3 {
     height: 400px;
     width: 300px;
     border-radius: 30px;
+    margin-top: -130px;
 
 
 }
@@ -1217,7 +1218,7 @@ i {
         scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
-        margin-left: -1x;
+        margin-left: 20px;
 
 
     }
@@ -2341,7 +2342,5 @@ i {
 
 }
 
-@viewport {
-    min-width: 980px !important;
-}
+
 
