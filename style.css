@@ -1207,17 +1207,17 @@ i {
     }
 
     .google-play-img img {
-        scale: 0.8;
+        scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
 
     }
 
     .app-store-img img {
-        scale: 0.8;
+        scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
-        margin-left: -10px;
+        margin-left: -1x;
 
 
     }
@@ -2134,7 +2134,7 @@ i {
 
     }
     .box-container {
-        margin-left: 10px !important;
+        margin-left: 5px !important;
 
 
     }
@@ -2167,7 +2167,7 @@ i {
     #mg1 h4 {
 
         font-size: 12px;
-        margin-left: -95px;
+        margin-left: -125px!important;
         letter-spacing: -1px;
         font-weight: 900;
 
@@ -2178,13 +2178,13 @@ i {
 
         font-weight: 900;
         letter-spacing: -1px;
-        margin-left: -25px;
+        margin-left: -50px !important;
     }
 
     #mg3 h4 {
 
         font-size: 12px;
-        margin-left: -75px;
+        margin-left: -90px !important;
         font-weight: 900;
         letter-spacing: -1px;
 
@@ -2192,7 +2192,7 @@ i {
 
     #mg4 h4 {
         font-size: 12px;
-        margin-left: -25px;
+        margin-left: -50px !important;
         font-weight: 900;
         letter-spacing: -1px;
 
@@ -2209,7 +2209,10 @@ i {
     .container-3 {
         overflow: hidden;
     }
+    .contact-para p {
+        font-size: 12px !important;
 
+    }
 
 }
 
@@ -2248,7 +2251,7 @@ i {
 
     }
     .box-container {
-        margin-left: 40px;
+        margin-left: 30px;
 
 
     }
@@ -2282,7 +2285,7 @@ i {
     #mg1 h4 {
 
         font-size: 12px;
-        margin-left: -95px;
+        margin-left: -125px!important;
         letter-spacing: -1px;
         font-weight: 900;
 
@@ -2293,13 +2296,13 @@ i {
 
         font-weight: 900;
         letter-spacing: -1px;
-        margin-left: -25px;
+        margin-left: -50px !important;
     }
 
     #mg3 h4 {
 
         font-size: 12px;
-        margin-left: -75px;
+        margin-left: -90px !important;
         font-weight: 900;
         letter-spacing: -1px;
 
@@ -2307,11 +2310,14 @@ i {
 
     #mg4 h4 {
         font-size: 12px;
-        margin-left: -25px;
+        margin-left: -50px !important;
         font-weight: 900;
         letter-spacing: -1px;
 
     }
+    
+
+
 
     .container-4,
     .container-3,
@@ -2336,6 +2342,6 @@ i {
 }
 
 @viewport {
-    min-width: 980px;
+    min-width: 980px !important;
 }
 
