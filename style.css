@@ -1218,7 +1218,7 @@ i {
         scale: 0.5;
         border-radius: 10px;
         cursor: pointer;
-        margin-left: 20px;
+        
 
 
     }
@@ -2243,17 +2243,17 @@ i {
     }
 
     .google-play-img img {
-        scale: 0.5;
+        scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
 
     }
 
     .app-store-img img {
-        scale: 0.5;
+        scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
-        margin-left: -30px;
+        margin-left: -10px;
 
 
     }
