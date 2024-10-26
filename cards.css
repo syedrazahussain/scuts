@@ -27,8 +27,8 @@
 .happy-msg p{
   width: 40%;
   font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 0.2px;
+  font-weight: none;
+  letter-spacing: 0.4px;
   
 }
 
@@ -47,10 +47,11 @@
   --carousel-item-height: 80px;
   --carousel-item-width: 280px;
   width: 100%;  
-  background-color: rgb(139, 95, 180);
+  background-color:#8466CF;
   mix-blend-mode:multiply;
   padding-top: 50px;
   padding-bottom: 50px;
+  border-radius: 20px;
   
   
 }
@@ -329,6 +330,7 @@
     padding-top: 50px;
     padding-bottom: 50px;  
     overflow: hidden;
+    
   }
 
   .happy{
