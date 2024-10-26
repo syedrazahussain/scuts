@@ -1,7 +1,20 @@
+@font-face{
+    font-family: scutsFont;
+    src: url(manrope.regular.otf);
+}
+@font-face {
+    font-family: scutsFont_bold;
+    src: url(manrope.bold.otf);
+}
+@font-face {
+    font-family: scutsFont_extrabold;
+    src: url(manrope.extrabold.otf);
+}
 * {
     padding: 0px;
     margin: 0px;
-    font-family: sans-serif;
+    font-family:scutsFont;
+    
 
 
 }
@@ -51,6 +64,7 @@ ul {
 .company-name h4 {
     margin-left: 100px;
     font-size: 25px;
+    color:#2f2055;
 }
 
 .navbar-items {
@@ -65,7 +79,7 @@ ul {
 .navbar-items a {
     margin-right: 80px;
     text-decoration: none;
-    color: black;
+    color:#2f2055;
     font-weight: bold;
 }
 
@@ -122,7 +136,8 @@ ul {
     justify-content: center;
     align-items: center;
     margin-right: 40px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #2f2055;
+    opacity: 0.7;
     border-radius: 10px;
 
 }
@@ -182,6 +197,7 @@ ul {
 
 .main-content-container {
     display: flex;
+    margin-left: 10px;
 
 
 }
@@ -205,25 +221,30 @@ ul {
 
 .dont-heading {
     padding: 10px;
-    font-weight: bolder;
-    font-size: 23px;
+    font-weight:999;
+    font-size: 24px;
     width: 100%;
-    font-family: sans-serif;
-    letter-spacing: -3px;
-    text-shadow: 30px;
+    font-family: scutsFont_extrabold;
+    letter-spacing: 0.5px;
+    text-shadow: 200px;
 }
 
 .dont-heading h1 {
-    font-weight: 700;
+    font-weight:999px;
     color: rgb(37, 37, 37);
+    font-family: scutsFont_bold;
+    color: #2f2055;
+    line-height: 60px;
+
 
 }
 
 .discover {
-    color: rgb(77, 76, 76);
+    color: rgb(66, 66, 66);
     padding: 10px;
     font-weight: bold;
-    width: 100%;
+    width: 90%;
+    
 
 }
 
@@ -231,10 +252,11 @@ ul {
     margin-bottom: 5px;
     display: flex;
     justify-content: flex-start;
-    font-size: 22px;
-    font-family: sans-serif;
-    font-weight: 700;
-    letter-spacing: -1px;
+    font-size: 16px;
+    font-family:scutsFont;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
 
 }
 
@@ -260,7 +282,7 @@ ul {
 }
 
 .container-2 {
-    margin-top: -50px;
+    margin-top: -100px;
 }
 
 .headings {
@@ -268,7 +290,7 @@ ul {
 }
 
 .headings p {
-    color: rgb(255, 7, 123);
+    color: #842F86;
     font-size: 10px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -276,6 +298,8 @@ ul {
 
 .headings h3 {
     font-size: 25px;
+    font-family: scutsFont_extrabold;
+    color:#2f2055;
 }
 
 .headings p,
@@ -291,6 +315,7 @@ h3 {
     display: flex;
     margin: auto;
     justify-content: center;
+    margin-top: -60px;
 }
 
 .box {
@@ -425,17 +450,24 @@ h3 {
 
 }
 
-.companies-heading {
+.companies-heading h2{
     display: flex;
     justify-content: center;
     padding: 30px;
     margin-top: 80px;
+    font-family: scutsFont_extrabold;
 }
 
+.companies-msg{
+    display: flex;
+    justify-content: center;
+}
 .companies-msg p {
     display: flex;
     justify-content: center;
-    color: rgb(90, 88, 88);
+    color: rgb(68, 67, 67);
+    width: 40%;
+    font-size: 12px;
 }
 
 .saloon-photos-div {
@@ -443,18 +475,20 @@ h3 {
 
 }
 
-.blog-heading {
+.blog-heading p {
     color: rgb(255, 7, 123);
     display: flex;
     justify-content: center;
     padding: 10px;
+    font-family: scutsFont_extrabold;
 }
 
-.blog-heading2 {
+.blog-heading2 h2 {
     padding: 10px;
     display: flex;
     justify-content: center;
     width: 100%;
+    font-family: scutsFont_extrabold;
 
 }
 
@@ -468,38 +502,52 @@ h3 {
 
 }
 
-#subt1 {
+#subt1 p {
     font-size: 11px;
     margin-top: 20px;
     margin-left: -20px;
+    color: #842F86;
+    font-family: scutsFont_extrabold;
+    font-weight: bolder;
 
 }
 
-#subt2 {
+#subt2 p {
     font-size: 11px;
-
-    margin-left: 25px;
+    margin-top: -10px;
+    margin-left: 20px;
+    color: #842F86;
+    font-family: scutsFont_extrabold;
+    font-weight: bolder;
 
 }
 
-#subt3 {
+#subt3 p{
     font-size: 11px;
     margin-left: 30px;
     margin-top: 5px;
+    color: #842F86;
+    font-family: scutsFont_extrabold;
+    font-weight: bolder;
 }
 
-#subt4 {
+#subt4 p{
     font-size: 11px;
     margin-left: 20px;
     margin-top: 5px;
+    color: #842F86;
+    font-family: scutsFont_extrabold;
+    font-weight: bolder;
 }
 
 #mg1 h4 {
 
     font-size: 12px;
-    margin-left: -155px;
-    letter-spacing: -1px;
+    margin-left: -143px;
+    letter-spacing: 0.4px;
     font-weight: 900;
+    font-family: scutsFont_extrabold;
+    color: #2f2055;
 
 }
 
@@ -507,23 +555,29 @@ h3 {
     font-size: 12px;
 
     font-weight: 900;
-    letter-spacing: -1px;
+    letter-spacing: 0.4px;
+    font-family: scutsFont_extrabold;
+    color: #2f2055;
 }
 
 #mg3 h4 {
 
     font-size: 12px;
-    margin-left: -100px;
+    margin-left: -97px;
     font-weight: 900;
-    letter-spacing: -1px;
+    letter-spacing: 0.4px;
+    font-family: scutsFont_extrabold;
+    color: #2f2055;
 
 }
 
 #mg4 h4 {
     font-size: 12px;
-    margin-left: -65px;
+    margin-left: -50px;
     font-weight: 900;
-    letter-spacing: -1px;
+    letter-spacing: 0.4px;
+    font-family: scutsFont_extrabold;
+    color: #2f2055;
 
 }
 
@@ -676,8 +730,9 @@ h3 {
 .scuts-msg h4 {
     font-size: 20px;
     padding: 10px;
-    width: 32%;
+    width: 35%;
     text-align: left;
+    font-family: scutsFont_extrabold;
 
 
 
@@ -732,7 +787,7 @@ h3 {
 
 .scuts-para p {
     display: flex;
-
+    font-family: scuts;
     justify-content: center;
     margin-bottom: 7px;
     position: relative;
@@ -764,12 +819,15 @@ h3 {
 }
 #fc1{
     margin-left: -140px;
+    color: #2f2055;
 }
 #fc2{
     margin-left: -100px;
+    color: #2f2055;
 }
 #fc3{
     margin-left: -130px;
+    color: #2f2055;
 }
 #fea1{
     margin-left: 100px;
@@ -800,6 +858,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 20px;
 
 
 }
@@ -810,6 +869,8 @@ h3 {
     color: rgb(182, 182, 182);
     width: 60%;
     line-height: 30px;
+    font-family: scutsFont_bold;
+    font-size: 13px;
 
 }
 
@@ -828,6 +889,8 @@ h3 {
     margin-left: 0px;
     display: flex;
     justify-content: flex-start;
+    font-weight: bolder;
+    font-family: scutsFont_extrabold;
 }
 
 .ready-para {
@@ -841,6 +904,8 @@ h3 {
     margin-bottom: 5px;
     color: rgb(92, 92, 92);
     width: 60%;
+    font-family: scuts;
+    font-size: 18px;
 
 
 }
@@ -876,7 +941,7 @@ h3 {
 }
 
 .voilet2 {
-    background-color: rgb(139, 95, 180);
+    background-color: #8466CF;
     padding: 50px;
     height: auto;
     border-radius: 10px;
@@ -949,6 +1014,8 @@ h3 {
     padding: 50px;
     display: flex;
     justify-content: space-evenly;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 
 }
 
@@ -1129,6 +1196,7 @@ i {
     .company-name h4 {
         margin-left: 10px;
         font-size: 25px;
+        color:#2f2055;
     }
 
     .navbar-items a {
@@ -1173,20 +1241,25 @@ i {
 
     }
 
-    .launched {
+    .launched p {
 
-        font-size: 3vmin;
-        letter-spacing: 1px;
+        font-size: 2.5vmin;
+        letter-spacing: 2px;
         padding: 5px;
         display: flex;
         justify-content: flex-start;
+        font-family: scutsFont_extrabold;
+        font-weight: bold;
     }
 
-    .dont-heading {
-        padding: 10px;
+    .dont-heading h1 {
+        padding: 5px;
         font-weight: bolder;
-        font-size: 4vmin;
+        font-size: 7vmin;
         letter-spacing: 0.1px;
+        width: 90%;
+        line-height: 35px;
+        margin-top: -20px;
 
     }
 
@@ -1260,6 +1333,7 @@ i {
 
     .box-container {
         display: block;
+        margin-top: 0px;
 
 
     }
@@ -1402,9 +1476,11 @@ i {
         display: flex;
         justify-content: center;
         color: rgb(90, 88, 88);
-        font-size: 14px;
+        font-size: 12px;
         white-space: normal;
         /* Allows wrapping of text */
+        text-align: center;
+        width: 100%;
 
     }
 
@@ -1714,9 +1790,12 @@ i {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: rgb(92, 92, 92);
-        font-size: 11px;
+        color: rgb(51, 50, 50);
+        font-size: 8px;
         width: 100%;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-weight: 400;
     }
 
     div .ready-container {
