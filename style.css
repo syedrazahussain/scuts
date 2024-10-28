@@ -2191,10 +2191,10 @@ i {
         margin-right: -30px !important;
 
 
+    }*/
+    .app-store-img img{
+        margin-left: -50px !important;
     }
-    .app-store-img{
-        margin-left: 10px;
-    } */
 
     .container {
         overflow-x: hidden;
