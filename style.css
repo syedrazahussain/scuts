@@ -2192,7 +2192,11 @@ i {
 
 
     }*/
+    .google-play-img img{
+        scale: 0.7;
+    }
     .app-store-img img{
+        scale: 0.7;
         margin-left: -50px !important;
     }
 
