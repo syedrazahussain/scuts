@@ -1289,7 +1289,6 @@ i {
         scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
-        
         position:absolute;
         z-index: 1;
 
@@ -1301,7 +1300,7 @@ i {
         cursor: pointer;
         position:absolute;
         z-index: 1;
-        left:150px;
+        left:200px;
         
 
 
