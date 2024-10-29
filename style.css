@@ -224,7 +224,7 @@ ul {
 .dont-heading {
     padding: 10px;
     font-weight:999;
-    font-size: 24px;
+    font-size: 22px;
     width: 100%;
     font-family: scutsFont_extrabold;
     letter-spacing: 0.5px;
@@ -264,6 +264,8 @@ ul {
 
 .download-images {
     display: flex;
+    height: 50px;
+    width: 100%;
     padding: 10px;
 }
 
@@ -281,6 +283,7 @@ ul {
     mix-blend-mode: multiply;
     position: relative;
     right: 150px;
+    
 }
 
 .container-2 {
@@ -1200,7 +1203,7 @@ i {
 
     .company-name h4 {
         margin-left: 10px;
-        font-size: 25px;
+        font-size: 16px;
         color:#2f2055;
     }
 
@@ -1231,47 +1234,59 @@ i {
 
         position: relative;
         right: 1px;
-        left: -50px;
+        left: -100px;
         background-image: url('hero-background.png.jpg');
         background-size: 610px;
         background-position: center;
         background-repeat: no-repeat;
+        
+        height: 300px;
+        width: 500px;
 
     }
 
+   
+
     .left-content {
         padding: 30px;
+        padding-top: 0px;
         padding-left: 10px;
-        margin-left: 20px;
+        margin-left: 10px;
 
     }
 
     .launched p {
 
-        font-size: 2.5vmin;
+        font-size: 2vmin;
         letter-spacing: 2px;
         padding: 5px;
         display: flex;
         justify-content: flex-start;
         font-family: scutsFont_extrabold;
         font-weight: bold;
+        margin-left: -3px;
+    }
+    .dont-heading {
+        width: 100%;
+        padding: 5px;
     }
 
     .dont-heading h1 {
         padding: 5px;
         font-weight: bolder;
-        font-size:7.5vmin;
+        font-size:4vmin;
         letter-spacing: 0.1px;
         width: 100%;
-        line-height: 35px;
+        line-height: 20px;
         margin-top: -20px;
+        font-family: scutsFont_extrabold;
 
     }
 
 
     .discover {
         color: rgb(99, 96, 96);
-        padding: 10px;
+        padding: 5px;
         font-weight: bold;
         width: 100%;
 
@@ -1284,31 +1299,35 @@ i {
         font-size: 3vmin;
         letter-spacing: 1px;
     }
+    .google-play-img{
+        width: 50%;
+    }
 
     .google-play-img img {
         scale: 0.6;
         border-radius: 10px;
         cursor: pointer;
-        position:absolute;
-        z-index: 1;
-
+        width: 100%;
+        
+        
+    }
+    .app-store-img {
+        width: 50%;
     }
 
     .app-store-img img {
-        scale: 0.6;
+        scale: 0.7;
         border-radius: 10px;
         cursor: pointer;
-        position:absolute;
-        z-index: 1;
-        left:200px;
+        width: 100%;
+        
+        
         
 
 
     }
 
-    .mobile-image{
-        margin-top: -70px;
-    }
+    
 
     .headings {
         padding: 30px;
@@ -1323,7 +1342,7 @@ i {
     }
 
     .headings h3 {
-        font-size: 5vmin;
+        font-size: 3vmin;
     }
 
     .headings p,
@@ -1338,6 +1357,7 @@ i {
 
     .container-2 {
         padding: 20px;
+        margin-top: -10px;
     }
 
     .box-container {
@@ -1368,6 +1388,8 @@ i {
     .box {
         margin-bottom: 50px;
         width: 250px;
+        padding: 10px 10px 40px;
+       
     }
 
     .box-img {
@@ -1381,7 +1403,7 @@ i {
     }
 
     .box-heading h2 {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 20px;
         padding-top: 10px;
 
@@ -1442,16 +1464,16 @@ i {
         height: auto;
     }
 
-    .blog-heading {
-        font-size: 20px;
+    .blog-heading p {
+        
         padding: 10px;
         font-size: 14px;
         font-weight: bold;
     }
 
-    .blog-heading2 {
+    .blog-heading2 h2 {
         padding: 0;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 70px;
         font-weight: 900;
 
@@ -1464,21 +1486,20 @@ i {
         justify-content: center;
         margin-left: -1px;
         margin-top: 20px;
-
-
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* 2 images per row */
         gap: 10px;
 
     }
+    .companies-heading h2{
+        font-size: 16px;
+    }
 
     .comp {
         height: 60px;
         width: 200px;
         opacity: 0.8;
-
-
     }
 
     .companies-msg p {
@@ -1665,10 +1686,11 @@ i {
 
     }
 
-    .read-blog {
+    .read-blog p{
 
         margin-top: 80px;
         cursor: pointer;
+        font-size: 10px;
     }
 
     .container-4 {
@@ -1699,7 +1721,7 @@ i {
     }
 
     .scuts-msg h4 {
-        font-size: 18px;
+        font-size: 14px;
         padding: 0;
         width: 100%;
         white-space: normal;
@@ -1719,7 +1741,7 @@ i {
         height: 350px;
         width: 300px;
         border-radius: 10px;
-        margin-top: 90px;
+        margin-top: 30px;
 
     }
 
@@ -1779,12 +1801,15 @@ i {
     }
     #fc1{
         margin-left: 10px;
+        font-size: 16px;
     }
     #fc2{
         margin-left: 10px;
+        font-size: 16px;
     }
     #fc3{
         margin-left: 10px;
+        font-size: 16px;
     }
 
     #fea1{
@@ -1826,7 +1851,7 @@ i {
     .ready-para p {
         margin-bottom: 10px;
         color: rgb(92, 92, 92);
-        margin-left: 2px;
+        margin-left: 5px;
         font-size: 11px;
         width: 100%;
 
@@ -1933,6 +1958,7 @@ i {
         font-weight: bold;
         margin-left: 20px;
         letter-spacing: 2px;
+        font-size: 15px;
 
     }
 
@@ -1943,6 +1969,7 @@ i {
         justify-content: center;
         margin-left: 20px;
         margin-top: 10px;
+        font-size: 16px;
     }
 
     .about-msg {
@@ -1953,7 +1980,7 @@ i {
 
         color: white;
         width: 100%;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: bold;
 
 
@@ -1967,15 +1994,16 @@ i {
 
         color: rgb(202, 195, 195);
         font-weight: bold;
+        font-size: 12px;
 
     }
 
     .sparrow-img {
 
         background-size: 300px;
-        height: 400px;
-        width: 400px;
-        margin-left: -30px;
+        height: 350px;
+        width: 350px;
+        margin-left: -40px;
     }
 
     .container-7 {
@@ -2001,6 +2029,7 @@ i {
 
     .scut-heading h1 {
         margin-bottom: 20px;
+        font-size: 20px;
     }
 
     .scut-para {
@@ -2081,7 +2110,7 @@ i {
 
     .contact h1 {
         margin-bottom: 20px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .contact-para p {
@@ -2099,7 +2128,7 @@ i {
         margin: 20px;
         padding: 10px;
         width: 90%;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     textarea {
@@ -2114,6 +2143,8 @@ i {
         padding: 10px;
         width: 97%;
         margin-left: 20px;
+        font-size: 14px;
+        font-weight: bold;
 
     }
 
@@ -2192,13 +2223,13 @@ i {
 
 
     }*/
-    .google-play-img img{
+    /* .google-play-img img{
         scale: 0.7;
     }
     .app-store-img img{
         scale: 0.7;
-        margin-left: -50px !important;
-    }
+        /* margin-left: -50px !important; 
+    } */
 
     .container {
         overflow-x: hidden;
