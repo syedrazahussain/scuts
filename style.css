@@ -110,10 +110,11 @@ ul {
 }
 
 .menu-icon i {
-    font-size: 22px;
+    font-size: 20px;
     align-items: center;
     font-weight: bold;
     display: none;
+    color:#2f2055;
 
 
 }
@@ -271,7 +272,7 @@ ul {
 
 .download-images {
     display: flex;
-    justify-content: space-between; /* Distributes space between items */
+   
     align-items: center; /* Vertically centers items */
     gap: 10px; /* Sets the gap between items */
 }
@@ -1264,7 +1265,7 @@ i {
 
     .left-content {
         padding: 30px;
-        padding-top: 0px;
+        padding-top: 35px;
         padding-left: 10px;
         margin-left: 10px;
 
@@ -1289,7 +1290,7 @@ i {
     .dont-heading h1 {
         padding: 5px;
         font-weight: bolder;
-        font-size:4vmin;
+        font-size:4.5vmin;
         letter-spacing: 0.1px;
         width: 100%;
         line-height: 20px;
@@ -1341,6 +1342,10 @@ i {
 
 
     } */
+     .download-images {
+        display: flex;
+        justify-content: space-between;
+     }
     .download-images img {
         max-height: 40px; /* Adjust size for smaller screens */
     }
