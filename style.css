@@ -262,12 +262,27 @@ ul {
 
 }
 
-.download-images {
+/* .download-images {
     display: flex;
     height: 50px;
     width: 100%;
     padding: 10px;
+} */
+
+.download-images {
+    display: flex;
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center; /* Vertically centers items */
+    gap: 10px; /* Sets the gap between items */
 }
+
+.download-images img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto; /* Maintains aspect ratio */
+    flex: 1; /* Allows images to grow and fill space equally */
+    max-height: 60px; /* Set a maximum height for consistency */
+}
+
 
 .right-content {
     width: 100%;
@@ -1234,7 +1249,7 @@ i {
 
         position: relative;
         right: 1px;
-        left: -100px;
+        left: -120px;
         background-image: url('hero-background.png.jpg');
         background-size: 610px;
         background-position: center;
@@ -1299,7 +1314,7 @@ i {
         font-size: 3vmin;
         letter-spacing: 1px;
     }
-    .google-play-img{
+    /* .google-play-img{
         width: 50%;
     }
 
@@ -1325,8 +1340,10 @@ i {
         
 
 
+    } */
+    .download-images img {
+        max-height: 40px; /* Adjust size for smaller screens */
     }
-
     
 
     .headings {
