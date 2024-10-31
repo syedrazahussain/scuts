@@ -527,6 +527,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin-left: 20px;
 }
 
 #subt1 p {
@@ -541,6 +542,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin-left: 20px;
 }
 #subt2 p {
     font-size: 11px;
@@ -553,6 +555,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin-left: 20px;
 }
 
 #subt3 p {
@@ -566,6 +569,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin-left: 20px;
 }
 
 
@@ -581,6 +585,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin-left: 20px;
 }
 #mg1 h4 {
     font-size: 12px;
@@ -595,6 +600,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin-left: 20px;
 }
 #mg2 h4 {
     font-size: 12px;
@@ -607,6 +613,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin-left: 20px;
 }
 #mg3 h4 {
     font-size: 12px;
@@ -620,6 +627,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin-left: 20px;
 }
 
 #mg4 h4 {
@@ -715,7 +723,7 @@ h3 {
 .saloon4 {
     height: auto;                /* Allow height to adjust based on content */
     width: 320px;                /* Fixed width */
-    border-radius: 20px;         /* Unified border-radius */
+    border-radius: 10px;         /* Unified border-radius */
     padding: 10px;
     margin: 20px;                /* Add uniform margin */
     display: flex;               /* Use flexbox for alignment */
@@ -733,7 +741,7 @@ h3 {
     background-repeat: no-repeat;
     height: 350px;               /* Fixed height */
     width: 100%;                 /* Make it responsive */
-    border-radius: 20px;         /* Consistent border-radius */
+    border-radius: 10px;         /* Consistent border-radius */
     
 }
 
@@ -952,7 +960,7 @@ h3 {
 }
 .down-btn button
 {
-    background-color: blueviolet;
+    background-color:#8B5FB4;
     padding: 15px;
     padding-left: 40px;
     padding-right: 40px;
@@ -1275,9 +1283,10 @@ i {
         
         height: 300px;
         width: 500px;
+        margin-top: 30px;
 
     }
-
+    
    
 
     .left-content {
