@@ -523,203 +523,220 @@ h3 {
     font-family: sans-serif;
 
 }
+#subt1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
 
 #subt1 p {
     font-size: 11px;
-    margin-top: 20px;
-    margin-left: -20px;
+    margin: 5px 0 0 0;          /* Adjust margins for spacing */
     color: #842F86;
     font-family: scutsFont_extrabold;
-    font-weight: bolder;
-
+    font-weight: bolder;         /* Top margin for spacing */
 }
 
+#subt2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
 #subt2 p {
     font-size: 11px;
-    margin-top: -10px;
-    margin-left: 20px;
+    margin: 5px 0 0 0;          /* Adjust margins for spacing */
     color: #842F86;
     font-family: scutsFont_extrabold;
     font-weight: bolder;
-
+}
+#subt3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
-#subt3 p{
+#subt3 p {
     font-size: 11px;
-    margin-left: 30px;
-    margin-top: 5px;
+    margin: 5px 0 0 0;          /* Adjust margins for spacing */
     color: #842F86;
     font-family: scutsFont_extrabold;
     font-weight: bolder;
 }
+#subt4 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
 
-#subt4 p{
+
+#subt4 p {
     font-size: 11px;
-    margin-left: 20px;
-    margin-top: 5px;
+    margin: 5px 0 0 0;          /* Adjust margins for spacing */
     color: #842F86;
     font-family: scutsFont_extrabold;
     font-weight: bolder;
 }
 
+#mg1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
 #mg1 h4 {
-
     font-size: 12px;
-    margin-left: -143px;
-    letter-spacing: 0.4px;
     font-weight: 900;
+    letter-spacing: 0.4px;
     font-family: scutsFont_extrabold;
     color: #2f2055;
-
+    
 }
 
+#mg2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
 #mg2 h4 {
     font-size: 12px;
-
     font-weight: 900;
     letter-spacing: 0.4px;
     font-family: scutsFont_extrabold;
     color: #2f2055;
 }
-
+#mg3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
 #mg3 h4 {
-
     font-size: 12px;
-    margin-left: -97px;
+    margin: 5px 0 0 0;          /* Adjust margins for spacing */
     font-weight: 900;
     letter-spacing: 0.4px;
     font-family: scutsFont_extrabold;
     color: #2f2055;
-
+}
+#mg4{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 #mg4 h4 {
     font-size: 12px;
-    margin-left: -50px;
+    margin: 5px 0 0 0;          /* Adjust margins for spacing */
     font-weight: 900;
     letter-spacing: 0.4px;
     font-family: scutsFont_extrabold;
     color: #2f2055;
-
 }
 
 .saloon1 {
-    height: 400px;
-    width: 300px;
-
-    margin-right: 50px;
+    height: auto;                /* Allow height to adjust based on content */
+    width: 350px;                /* Fixed width */
     border-radius: 10px;
-    padding: 10px;
-    padding-bottom: 30px;
-    margin-top: 70px;
-    transition: transform 0.3s ease-in-out, z-index 0.3s;
-
+    margin: 20px 0 0 0;         /* Top margin for spacing */
+    display: flex;   
+    justify-content:left;            /* Use flexbox for alignment */
+    flex-direction:column;      /* Stack children vertically */
+    align-items: center;         /* Center items horizontally */
+    text-align: center;          /* Center text */
+    margin-left: 150px;
+    margin-bottom: 50px;
 }
-
 .saloon-msg {
     font-size: 14px;
 
 }
 
 .saloon-img1 {
-    background-image: url('Mask\ group-2.png');
-    background-size: 380px;
+    background-image: url('Mask group-2.png'); /* Ensure the path is correct */
+    background-size: cover;      /* Ensure image covers the area */
     background-position: center;
     background-repeat: no-repeat;
-    height: 350px;
-    width: 320px;
+    height: 350px;               /* Fixed height */
+    width: 100%;                 /* Make it responsive */
     border-radius: 10px;
-    scale: 1;
-    margin-left: -40px;
-
-
 }
 
 .saloon2 {
-    height: 350px;
-    width: 300px;
+    height: auto;                /* Allow height to adjust based on content */
+    width: 300px;                /* Fixed width */
     border-radius: 10px;
     padding: 10px;
-    padding-bottom: 30px;
-    margin-top: 40px;
-    margin-left: -60px;
-
-
+    padding-bottom: 0px;
+    margin: 0px auto 0;        /* Center with auto margins on the sides */
+    display: flex;               /* Use flexbox for alignment */
+    flex-direction: column;      /* Stack children vertically */
+    align-items: center;         /* Center items horizontally */
+    text-align: center;          /* Center text */
 }
+
 
 .saloon-img2 {
     background-image: url('saloon3.jpg');
-    background-size: 290px;
+    background-size: cover;      /* Ensure image covers the area */
     background-position: center;
     background-repeat: no-repeat;
-    height: 250px;
-    width: 300px;
-    border-radius: 60px;
+    height: 250px;               /* Fixed height */
+    width: 100%;                 /* Make it responsive */
+    border-radius: 10px;         /* Keep corners rounded */
     margin-top: 7px;
-
-
-
-
 }
 
 
 
 .saloon3 {
-    height: 290px;
-    width: 350px;
+    height: auto;                /* Allow height to adjust based on content */
+    width: 360px;                /* Fixed width */
     border-radius: 10px;
     padding: 10px;
-
-    margin-top: 20px;
-    margin-left: 20px;
-
-
-
-
+    margin: 20px;                /* Add uniform margin */
+    display: flex;               /* Use flexbox for alignment */
+    flex-direction: column;      /* Stack children vertically */
+    align-items: center;         /* Center items horizontally */
+    text-align: center;          /* Center text */
+    margin-left: 100px;
 }
 
 .saloon-img3 {
     background-image: url('saloon2.jpg');
-    background-size: 340px;
+    background-size: cover;      /* Ensure the image covers the area */
     background-position: center;
     background-repeat: no-repeat;
-    height: 260px;
-    width: 320px;
-    border-radius: 30px;
-    margin-top: -30px;
-    margin-left: 5px;
-
-
+    height: 260px;               /* Fixed height */
+    width: 100%;                 /* Make it responsive */
+    border-radius: 10px;         /* Keep corners rounded */
+    margin-top: -30px;           /* Adjust if necessary */
 }
 
 
+
 .saloon4 {
-    height: 400px;
-    width: 350px;
-    border-radius: 10px;
+    height: auto;                /* Allow height to adjust based on content */
+    width: 320px;                /* Fixed width */
+    border-radius: 20px;         /* Unified border-radius */
     padding: 10px;
-    padding-bottom: 30px;
-    border-radius: 20px;
-    
-    bottom: 130px;
-    margin-top: -20px;
-
-
+    margin: 20px;                /* Add uniform margin */
+    display: flex;               /* Use flexbox for alignment */
+    flex-direction: column;      /* Stack children vertically */
+    align-items: center;         /* Center items horizontally */
+    text-align: center;          /* Center text */
+    margin-top: -100px;
+    margin-left: 30px;
 }
 
 .saloon-img4 {
     background-image: url('saloon2.jpg');
-    background-size: 550px;
+    background-size: cover;      /* Ensure the image covers the area */
     background-position: center;
     background-repeat: no-repeat;
-    scale: 1.0;
-    height: 400px;
-    width: 300px;
-    border-radius: 30px;
-    margin-top: -130px;
-
-
+    height: 350px;               /* Fixed height */
+    width: 100%;                 /* Make it responsive */
+    border-radius: 20px;         /* Consistent border-radius */
+    
 }
+
 
 
 .read-blog {
@@ -1280,6 +1297,7 @@ i {
         justify-content: flex-start;
         font-family: scutsFont_extrabold;
         font-weight: bold;
+        margin-top: -30px;
         margin-left: -3px;
     }
     .dont-heading {
@@ -1290,12 +1308,13 @@ i {
     .dont-heading h1 {
         padding: 5px;
         font-weight: bolder;
-        font-size:4.5vmin;
+        font-size:4.8vmin;
         letter-spacing: 0.1px;
         width: 100%;
         line-height: 20px;
         margin-top: -20px;
-        font-family: scutsFont_extrabold;
+        font-family: sans-serif;
+        
 
     }
 
@@ -1344,7 +1363,7 @@ i {
     } */
      .download-images {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
      }
     .download-images img {
         max-height: 40px; /* Adjust size for smaller screens */
@@ -1539,178 +1558,149 @@ i {
     .four-img-div {
         display: block;
         align-items: center;
-        width: 70%;
+        width: 100%;
         padding: 0;
         margin-top: -50px;
 
 
 
     }
+    #subt1 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
 
     #subt1 p {
-        font-size: 10px;
-        margin-top: 10px;
-        margin-left: 10px;
-
+        font-size: 9px;          /* Smaller font size for mobile */
+        margin: 5px 0;          /* Adjust margin */
+    }
+    #subt2 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
     }
 
-    #subt2 p{
-        font-size: 10px;
-        margin-top: -15px;
-        margin-left: 15px;
-
+    #subt2 p {
+        font-size: 9px;          /* Smaller font size for mobile */
+        margin: 5px 0;          /* Adjust margin */
+    }
+    
+  
+    #subt3 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
     }
 
-    #subt3 p{
-        font-size: 10px;
-        margin-left: 20px;
-        margin-top: -20px;
+    #subt3 p {
+        font-size: 9px;          /* Smaller font size for mobile*/
+        margin-left: 0;          /* Center text */
     }
 
-    #subt4 p{
-        font-size: 10px;
-        margin-left: 20px;
-        margin-top: 5px;
+    #subt4 p {
+        font-size: 9px;          /* Smaller font size for mobile*/ 
+        margin-left: 0;          /* Center text */
+    }
+
+    #mg1 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
     }
 
     #mg1 h4 {
-
-        font-size: 11px;
-        margin-left: -95px;
-        letter-spacing: 0.5px;
-        font-weight: 900;
-
+        font-size: 10px;         /* Smaller font size for mobile */
+        margin: 0;               /* Remove margin for better spacing */
+    }
+    #mg2{
+    
+         width: 100%;
+         display: flex;
+         justify-content: flex-start;   
+    
     }
 
     #mg2 h4 {
-        font-size: 11px;
-
-        font-weight: 900;
-        letter-spacing: 0.5px;
-        margin-left: -25px;
+        font-size: 10px;         /* Smaller font size for mobile*/
+        margin: 0px;
     }
+    #mg3{
+    
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;   
+   
+   }
+   
 
     #mg3 h4 {
-
-        font-size: 11px;
-        margin-left: -75px;
-        font-weight: 900;
-        letter-spacing: 0.5px;
-
+        font-size: 10px;         /* Smaller font size for mobile*/
+        margin-left: 0;          /* Center text */
     }
-
+    #mg4{
+    
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;   
+   
+   }
     #mg4 h4 {
-        font-size: 11px;
-        margin-left: -20px;
-        font-weight: 900;
-        letter-spacing: 0.5px;
-
+        font-size: 10px;         /* Smaller font size for mobile */
+        margin-left: 0;          /* Center text */
     }
-
     .saloon1 {
-        height: 400px;
-        width: 300px;
-        border-radius: 10px;
-        margin: 0;
-        margin-top: 20px;
-        margin-left: 0px;
-
+        width: 90%;               /* Make width responsive on mobile */
+        margin: 10px auto;       /* Center the saloon on mobile */
     }
 
     .saloon-img1 {
-        background-image: url('Mask\ group-2.png');
-        background-size: 300px;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 350px;
-        width: 300px;
-        border-radius: 10px;
-        margin-left: 0px;
-
+        height: 300px;           /* Adjust height for mobile */
     }
+
+   
+
+   
 
     .saloon2 {
-        height: 250px;
-        width: 300px;
-        border-radius: 10px;
-        margin-top: -30px;
-        margin-left: 0px;
-
+        width: 90%;               /* Make width responsive on mobile */
+        margin: 10px auto;       /* Center the saloon on mobile */
     }
-
+    
     .saloon-img2 {
-        background-image: url('saloon2.jpg');
-        background-size: 300px;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 250px;
-        width: 300px;
-        border-radius: 40px;
-
+        height: 200px;           /* Adjust height for mobile*/
     }
 
 
     .saloon3 {
-        height: 250px;
-        width: 300px;
-        border-radius: 10px;
-        margin-left: 0px;
-
-
-
-
-
+        width: 90%;               /* Make width responsive on mobile*/
+        margin: 10px auto;       /* Center the saloon on mobile */
     }
-
+    
     .saloon-img3 {
-        background-image: url('saloon3.jpg');
-        background-size: 290px;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 250px;
-        width: 300px;
-        border-radius: 60px;
-        margin-top: -20px;
-        margin-left: 0px;
-
-
-
+        height: 200px;           /* Adjust height for mobile*/
+        margin: 0px;
     }
-
+    
+   
+    
+    
 
     .saloon4 {
-        height: 400px;
-        width: 300px;
-        border-radius: 10px;
-        position: relative;
-        bottom: -20px;
-        left: 10px;
-        border-radius: 20px;
-        margin: 0;
-        padding: 0;
-
-
-
+        width: 90%;               /* Make width responsive on mobile */
+        margin: 10px auto;       /* Center the saloon on mobile */
     }
-
+    
     .saloon-img4 {
-        background-image: url('saloon2.jpg');
-        background-size: 500px;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 350px;
-        width: 300px;
-        border-radius: 20px;
-        padding: 0px;
-        margin: 0px;
-
-
-
+        height: 250px;           /* Adjust height for mobile */
     }
-
+    
+   
+    
+   
     .read-blog p{
 
-        margin-top: 80px;
+        margin-top: 50px;
         cursor: pointer;
         font-size: 10px;
     }
@@ -2304,67 +2294,7 @@ i {
 
 
     }
-    /* #subt1 {
-        font-size: 11px;
-        margin-top: 20px;
-        margin-left: 10px;
-
-    }
-
-    #subt2 {
-        font-size: 11px;
-        margin-top: -10px;
-        margin-left: 15px;
-
-    }
-
-    #subt3 {
-        font-size: 11px;
-        margin-left: 20px;
-        margin-top: -10px;
-    }
-
-    #subt4 {
-        font-size: 11px;
-        margin-left: 15px;
-        margin-top: 5px;
-    }
-
-    #mg1 h4 {
-
-        font-size: 12px;
-        margin-left: -130px!important;
-        letter-spacing: -1px;
-        font-weight: 900;
-
-    }
-
-    #mg2 h4 {
-        font-size: 12px;
-
-        font-weight: 900;
-        letter-spacing: -1px;
-        margin-left: -70px !important;
-    }
-
-    #mg3 h4 {
-
-        font-size: 12px;
-        margin-left: -110px !important;
-        font-weight: 900;
-        letter-spacing: -1px;
-
-    }
-
-    #mg4 h4 {
-        font-size: 12px;
-        margin-left: -70px !important;
-        font-weight: 900;
-        letter-spacing: -1px;
-
-    } */
-
-
+   
 
     .container-3 {
         overflow: hidden;
@@ -2391,28 +2321,7 @@ i {
         overflow: hidden;
 
     }
-    /* .google-play-img {
-        margin-right: 20px;
-    }
-
-    .google-play-img img {
-        scale: 0.6;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-left: -10px !important;
-
-    }
-
-    .app-store-img img {
-        scale: 0.6;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-left: -5px !important;
-        margin-right: -20px !important;
-
-
-    } */
-
+    
 
     .container {
         overflow-x: hidden;
@@ -2444,67 +2353,7 @@ i {
 
     }
 
-    /* #subt1 {
-        font-size: 11px;
-        margin-top: 20px;
-        margin-left: 10px;
-
-    }
-
-    #subt2 {
-        font-size: 11px;
-        margin-top: -10px;
-        margin-left: 15px;
-
-    }
-
-    #subt3 {
-        font-size: 11px;
-        margin-left: 20px;
-        margin-top: -10px;
-    }
-
-    #subt4 {
-        font-size: 11px;
-        margin-left: 15px;
-        margin-top: 5px;
-    }
-
-    #mg1 h4 {
-
-        font-size: 12px;
-        margin-left: -130px!important;
-        letter-spacing: -1px;
-        font-weight: 900;
-
-    }
-
-    #mg2 h4 {
-        font-size: 12px;
-
-        font-weight: 900;
-        letter-spacing: -1px;
-        margin-left: -70px !important;
-    }
-
-    #mg3 h4 {
-
-        font-size: 12px;
-        margin-left: -110px !important;
-        font-weight: 900;
-        letter-spacing: -1px;
-
-    }
-
-    #mg4 h4 {
-        font-size: 12px;
-        margin-left: -70px !important;
-        font-weight: 900;
-        letter-spacing: -1px;
-
-    } */
     
-
 
 
     .container-4,
@@ -2528,6 +2377,10 @@ i {
     }
 
 }
+
+
+
+
 
 
 
